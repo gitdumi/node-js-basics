@@ -1,0 +1,16 @@
+{
+  "name": "note",
+  "type": "module",
+  "bin": {
+    "note": "./index.js"
+  },
+  "scripts": {
+    "test": "jest .**/*.test.js"
+  },
+  "dependencies": {
+    "@jest/globals": "^27.0.6",
+    "jest": "^27.0.6",
+    "open": "^9.1.0",
+    "yargs": "^17.7.2"
+  }
+}
